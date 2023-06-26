@@ -1,3 +1,9 @@
-.logo {
-    float:right;
+li {
+    display: inline-block;
+}
+.element {
+    text-align: right;
+}
+.list li {
+    margin-left: 20px;
 }

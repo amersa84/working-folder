@@ -1,9 +1,26 @@
-li {
-    display: inline-block;
+body {
+    margin: 0;
+    padding: 0;
 }
-.element {
+
+.header {
+    background-color:blue ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
     text-align: right;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
 }
 .list li {
-    margin-left: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.logo {
+    font-size: 32px;
+    padding-left: 20px;
+    color: aliceblue;
 }

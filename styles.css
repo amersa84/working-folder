@@ -24,3 +24,15 @@ body {
     padding-left: 20px;
     color: aliceblue;
 }
+
+.hero_area{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero_area_image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
